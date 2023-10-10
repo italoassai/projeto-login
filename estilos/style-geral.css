@@ -31,6 +31,7 @@ section#login{
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507) ;
+    
 }
 
     
@@ -42,4 +43,8 @@ section#login{
         background-size: cover;
         background-position: left center  ;
         
+    }
+
+    div#formulario{
+        padding: 10px;
     }
