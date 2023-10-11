@@ -2,6 +2,10 @@
 
 
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    body{
+        background-image: linear-gradient(to top , #49a09d ,purple );
+    }
     
     section#login{
         width: 80vw;
@@ -21,8 +25,23 @@
 
 @media screen and (min-width:992px) {
     
+    body{
+        background-image: linear-gradient(to top , #49a09d ,purple );
+    }
     section#login{
         width: 80vw;
+    }
+
+    img{
+        float: left;
+        width: 49%;
+        height: 100%;
+    }
+
+    div#fomulario{
+        float: right;
+        width: 51%;
+        height: 100%;
     }
     
 }
