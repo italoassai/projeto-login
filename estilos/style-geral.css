@@ -62,3 +62,16 @@ section#login{
         font-size: 0.9;
         
     }
+    input#enviar{
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+
+    }
