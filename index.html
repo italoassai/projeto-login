@@ -6,6 +6,7 @@
     <title>Projeto-Login</title>
     <link rel="stylesheet" href="estilos/style-geral.css">
     <link rel="stylesheet" href="estilos/tablet-telas-maiores.css">
+    <script src="https://kit.fontawesome.com/d174af9e37.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -19,7 +20,33 @@
                 <div id="formulario">
                     <h1>Login</h1>
                     <p>Sejam bem vindos! Faça login para provermos o melhor serviço para você!</p>
-                    <form action="cadastro.php" method="post"> </form>
+                    <form action="cadastro.php" method="post">
+                       <div class="campo">
+                        
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <input type="email" name="email" id="emailid" placeholder="seu e-mail" required autocomplete="email">
+                        <label for="emailid">Login</label>
+                       </div> 
+
+                       <div class="campo">
+
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="senha" id="senhaid" placeholder="sua senha " required minlength="8"
+                        autocomplete="current-password">
+                        <label for="senhaid">Senha</label>
+
+                       </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </form>
 
                 </div>
 

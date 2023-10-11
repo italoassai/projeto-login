@@ -46,8 +46,19 @@ section#login{
         background-size: cover;
         background-position: left center  ;
         
+        
     }
 
     div#formulario{
         padding: 10px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center ;
+        font-size: 0.9;
+        
     }

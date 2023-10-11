@@ -21,6 +21,12 @@
         float: right;
         width: 57%;
     }
+    p{
+        text-align: center ;
+        font-size: 1.2em;
+        
+    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -33,15 +39,22 @@
     }
 
     img{
-        float: left;
+        float: right;
         width: 49%;
         height: 100%;
     }
 
     div#fomulario{
-        float: right;
+        float: left;
         width: 51%;
         height: 100%;
     }
+
+    p{
+        text-align: center ;
+        font-size: 1.5em;
+        
+    }
+
     
 }
