@@ -57,4 +57,48 @@
     }
 
     
+
+    input.enviar{
+        padding-top: 2px;
+        margin-top: 10px;
+        display: block;
+        font-size: 1em;
+        width: 50%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+
+    }
+
+      input.enviar:hover{
+        background-color: #00837e;
+    
+      }
+
+      a.botao{
+        margin-top: 5px;
+        padding-top: 10px;
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        width: 50%;
+        height: 35px;
+        background-color:#00837f52;
+        color: #056d69;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1px solid #00837f2a;
+      }
+
+      a.botao:hover{
+        background-color: #00837e;
+        color: white;
+      }
+
+    
 }

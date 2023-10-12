@@ -26,8 +26,8 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    height: 500px;
+    width: 250px;
+    height: 520px;
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
@@ -41,7 +41,7 @@ section#login{
   img{
         display: block;
         background-repeat: no-repeat;
-        width: 200px;
+        width: 100%;
         height: 200px;
         background-size: cover;
         background-position: left center  ;
@@ -62,7 +62,19 @@ section#login{
         font-size: 0.9;
         
     }
-    input#enviar{
+
+    div.campo{
+        background-color: purple;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    input.enviar{
+        padding-top: 2px;
+        margin-top: 10px;
         display: block;
         font-size: 1em;
         width: 100%;
@@ -75,3 +87,35 @@ section#login{
 
 
     }
+
+      input.enviar:hover{
+        background-color: #00837e;
+    
+      }
+
+      a.botao{
+        margin-top: 5px;
+        padding-top: 10px;
+        text-align: center;
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 30px;
+        background-color:#00837f52;
+        color: #056d69;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1px solid #00837f2a;
+      }
+
+      a.botao:hover{
+        background-color: #00837e;
+        color: white;
+      }
+       
+    
+        
+        
+
+    
